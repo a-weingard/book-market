@@ -10,7 +10,7 @@ st.set_page_config(page_title="Empfehlung-Buchdaten", layout="wide")
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('final_books_recommend.csv', encoding='ascii')
+    return pd.read_csv('data/final_books_recommend.csv', encoding='ascii')
 
 df = load_data()
 

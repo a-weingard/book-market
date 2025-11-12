@@ -7,7 +7,7 @@ import seaborn as sns
 st.set_page_config(page_title="Buchdaten", layout="wide")
 
 # Daten laden
-df_ana = pd.read_csv("book_data_clean.csv", sep=";", encoding="utf-8")
+df_ana = pd.read_csv("data/book_data_clean.csv", sep=";", encoding="utf-8")
 
 # FORMATIERUNG: Werte runden (floats)
 df_ana["Average_Rating"] = df_ana["Average_Rating"].round(2)

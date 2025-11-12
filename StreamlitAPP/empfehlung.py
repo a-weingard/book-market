@@ -27,7 +27,7 @@ def load_data():
     Returns:
         pd.DataFrame: The processed book dataset with parsed genre lists.
     """
-    books = pd.read_csv("final_books_recommend.csv")
+    books = pd.read_csv("data/final_books_recommend.csv")
 
     # Convert the "genre_list" column from string to actual list
     books['genre_list'] = books['genre_list'].apply(

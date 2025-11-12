@@ -23,10 +23,10 @@ def show():
     )
 
     try:
-        df_pred = pd.read_csv("new_books_2024.csv", encoding="utf-8")
+        df_pred = pd.read_csv("data/new_books_2024.csv", encoding="utf-8")
         df_pred.columns = df_pred.columns.str.strip()
     except FileNotFoundError:
-        st.error("❌ Datei 'new_books_2024.csv' wurde nicht gefunden.")
+        st.error("❌ Datei 'data/new_books_2024.csv' wurde nicht gefunden.")
         return
     # WICHTIG: pipeline wird geladen!!!! es wurde im block ML erstellt und als logisti_pipeline.pkl abgespeichrt---> mein gespeichertes MOdel
     try:
@@ -108,11 +108,11 @@ def show():
 
         # === Basis Daten laden ===
     try:
-        df_ana = pd.read_csv("book_data_clean.csv", sep=";", encoding="utf-8")
+        df_ana = pd.read_csv("data/book_data_clean.csv", sep=";", encoding="utf-8")
         df_ana.columns = df_ana.columns.str.strip()
     except FileNotFoundError:
         st.warning(
-            "⚠️ Datei 'book_data_clean.csv' für historische Daten nicht gefunden."
+            "⚠️ Datei 'data/book_data_clean.csv' für historische Daten nicht gefunden."
         )
         return
     st.write("")  # leere Zeile

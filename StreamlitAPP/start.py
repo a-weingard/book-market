@@ -139,5 +139,5 @@ def show():
 
     with image_col:
         st.image(
-            "Start_seite_Bild.jpg", caption="Projektcover", use_container_width=True
+            "data/books.jpg", caption="Projektcover", use_container_width=True
         )
