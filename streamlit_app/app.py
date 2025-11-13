@@ -4,8 +4,8 @@ st.set_page_config(page_title="Book Market", layout="wide")
 
 # Jetzt andere Imports
 from trans_author import AuthorRatingMapper
-import Verfilmungsprognose
-import empfehlung
+import film_prediction
+import recommendations
 import start
 
 st.sidebar.title("📘 Projekt-Navigation")
@@ -18,7 +18,7 @@ page = st.sidebar.radio(
 if page == "Startseite":
     start.show()
 elif page == "Empfehlungssystem":
-    empfehlung.show()
+    recommendations.show()
 elif page == "Verfilmungsprognose":
-    Verfilmungsprognose.show()
+    film_prediction.show()
 
