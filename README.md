@@ -19,10 +19,9 @@ Interaktiv, intelligent und visuell umgesetzt mit Python, Streamlit und modernen
 **Book Market** ist eine interaktive Web-App, die Buchdaten analysiert, personalisierte Empfehlungen generiert und mithilfe von Machine-Learning-Methoden vorhersagt, ob ein Buch potenziell verfilmt wird.
 Das Ziel war, literarische Trends datenbasiert zu verstehen und gleichzeitig praktische Data-Science-Kompetenzen in einem realistischen Projektkontext zu entwickeln.
 
-Das Projekt wurde im Team unter Anwendung der Scrum-Methodik umgesetzt:
-3 Sprints à 2 Wochen
-Agile Planung mit Backlog, Sprint Reviews und Retrospektiven
-Gemeinsame Versionskontrolle über GitHub
+Das Projekt wurde im Team nach dem [Scrum](https://www.scrum.org) umgesetzt:
+- 3 Sprints à 2 Wochen (agile Planung mit Scrum-Regeln, Rollen, Events und Artefakten)
+- Gemeinsame Versionskontrolle über GitHub
 
 ---
 
@@ -54,10 +53,8 @@ A list of technologies used within the project:
 * [Scikit-learn](https://scikit-learn.org): Version 1.6.1 (LinearRegression)
 * [Streamlit](https://streamlit.io): Version 1.44.1 (App-UI) 
 * [Joblib](https://joblib.readthedocs.io): Version 1.5.1 (Modellspeicherung)
-* [Ast](https://docs.python.org/3/library/ast.html): Version ??? (wurde es verwendet???)
 * [Requests](https://requests.readthedocs.io/en/latest/): Version 2.32.3 
 * [Torch](https://pytorch.org): Version 2.7.1
-* [Umap-learn](https://pypi.org/project/umap-learn/): Version 0.5.9.post2 (wurde es verwendet???)
 
 - **GitHub** (Versionskontrolle & Zusammenarbeit)
 - **SCRUM** (agile Projektstruktur)
@@ -76,6 +73,21 @@ pip install -r requirements.txt
 # Streamlit-App starten
 streamlit run app.py
 
+## Starten
+
+streamlit run streamlit_app.py
+
+### 👥 Team
+Lena Wowchik · Arina Weingard · Julia Schober
+
+#### Voraussetzungen
+
+Python 3.9+  
+Installiere die benötigten Pakete mit:
+
+```bash
+pip install -r requirements.txt
+
 ---
 
 ## Table of Contents
@@ -87,15 +99,3 @@ streamlit run app.py
 ## Technologies
 ***
 A list of technologies used within the project:
-* [Python](https://www.python.org): Version 3.9.6 
-* [Pandas](https://pandas.pydata.org): Version 2.2.3
-* [NumPy](https://numpy.org): Version 2.2.6
-* [Matplotlib](https://matplotlib.org): Version 3.10.1 
-* [Seaborn](https://seaborn.pydata.org): Version 0.13.2
-* [Scikit-learn](https://scikit-learn.org): Version 1.6.1 (LinearRegression)
-* [Streamlit](https://streamlit.io): Version 1.44.1 (App-UI) 
-* [Joblib](https://joblib.readthedocs.io): Version 1.5.1 (Modellspeicherung)
-* [Ast](https://docs.python.org/3/library/ast.html): Version ??? (wurde es verwendet???)
-* [Requests](https://requests.readthedocs.io/en/latest/): Version 2.32.3 
-* [Torch](https://pytorch.org): Version 2.7.1
-* [Umap-learn ](https://pypi.org/project/umap-learn/): Version 0.5.9.post2 (wurde es verwendet???)

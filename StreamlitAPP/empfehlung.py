@@ -2,11 +2,11 @@
 
 import streamlit as st
 import pandas as pd
-import numpy as np
+#import numpy as np
 import ast
 import requests
 import torch
-import umap
+#import umap
 from sentence_transformers import SentenceTransformer, util
 from wordcloud import WordCloud
 from io import BytesIO

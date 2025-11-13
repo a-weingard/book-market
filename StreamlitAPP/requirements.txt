@@ -1,0 +1,26 @@
+# Core
+python==3.9.6
+
+# Data Analysis
+pandas==2.2.3
+numpy==2.2.6
+
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Machine Learning
+scikit-learn==1.6.1
+torch==2.7.1
+umap-learn==0.5.9.post2
+
+# Web App
+streamlit==1.44.1
+
+# Utilities
+joblib==1.5.1
+requests==2.32.3
+
+# Natural Language Processing?
+sentence-transformers==5.0.0
+wordcloud==1.9.4
