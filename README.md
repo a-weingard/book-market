@@ -13,8 +13,8 @@ Die App ist interaktiv, intelligent und visuell umgesetzt mit Python, Streamlit 
 1. [Projektübersicht](#projektübersicht)
 2. [Features der App](#features-der-app)
 3. [Verwendete Technologien](#verwendete-technologien)
-4. [Installation (DE)](#installation-(de))
-5. [Team (DE)](#team-(de))
+4. [Installation](#installation-(de))
+5. [Team](#team-(de))
 
 ---
 
@@ -114,8 +114,8 @@ Interactive, intelligent, and visually implemented using Python, Streamlit, and 
 1. [Project Overview](#project-overview)
 2. [App Features](#app-features)
 3. [Technologies](#technologies)
-4. [Installation (EN)](#installation-(en))
-5. [Team (EN)](#team-(en))
+4. [Installation](#installation-(en))
+5. [Team](#team-(en))
 
 ## Project Overview
 
