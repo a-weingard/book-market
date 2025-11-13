@@ -1,61 +1,101 @@
-# 📚 Book Market – Literatur trifft Data Science
+# Book Market – Literatur trifft Data Science
 
-Ein datengetriebenes Analyse- und Vorhersageprojekt rund um den Buchmarkt.  
-Interaktiv, intelligent und visuell – umgesetzt mit **Python**, **Streamlit** und **Machine Learning**.
+[English version below](#)
+
+Ein datengetriebenes Analyse- und Vorhersageprojekt rund um den internationalen Buchmarkt.  
+Die Web-App kombiniert **Data Science**, **Machine Learning** und **Literaturanalyse**, um Bücher datenbasiert zu empfehlen und ihre Verfilmungswahrscheinlichkeit zu prognostizieren.
+Interaktiv, intelligent und visuell umgesetzt mit Python, Streamlit und modernen Analysebibliotheken.
 
 ## Table of Contents
-1. [General Info](#general-info)
-2. [Features of the App](#features-of-the-app)
-2. [Technologies](#technologies)
+1. [Projektübersicht](#projektübersicht)
+2. [Features der App](#features-der-app)
+2. [Verwendete Technologien](#verwendete-technologien)
 3. [Installation](#installation)
 
 ---
 
-## 🔍 Projektübersicht
+## Projektübersicht
 
-Diese Web-App analysiert Buchdaten, gibt Empfehlungen und prognostiziert die Wahrscheinlichkeit, ob ein Buch verfilmt wird.  
-Das Projekt wurde im Team mit Scrum-Methodik durchgeführt (3 Sprints à 2 Wochen).
+**Book Market** ist eine interaktive Web-App, die Buchdaten analysiert, personalisierte Empfehlungen generiert und mithilfe von Machine-Learning-Methoden vorhersagt, ob ein Buch potenziell verfilmt wird.
+Das Ziel war, literarische Trends datenbasiert zu verstehen und gleichzeitig praktische Data-Science-Kompetenzen in einem realistischen Projektkontext zu entwickeln.
+
+Das Projekt wurde im Team unter Anwendung der Scrum-Methodik umgesetzt:
+3 Sprints à 2 Wochen
+Agile Planung mit Backlog, Sprint Reviews und Retrospektiven
+Gemeinsame Versionskontrolle über GitHub
 
 ---
 
-## 🚀 Features der App
+## Features der App
 
-### 🤖 Empfehlungssystem
-- Empfehlungen ähnlicher Bücher basierend auf Genre, Sprache und Bewertung
-- Inhaltlich nachvollziehbar und visuell präsentiert
+### Empfehlungssystem
 
-### 🎥 Verfilmungsprognose
-- Logistic Regression zur Vorhersage von Buchverfilmungen
+- Empfiehlt ähnliche Bücher auf Basis von Genre, Bewertung und Erscheinungsjahr
+- Visualisierung der Ergebnisse mit interaktiven Elementen
+- Transparentes Recommender-System mit erklärbaren Ergebnissen
+
+### Verfilmungsprognose
+
+- Logistische Regression zur Vorhersage der Wahrscheinlichkeit, dass ein Buch verfilmt wird
 - Input: Buchdaten | Output: Wahrscheinlichkeit der Verfilmung
-- Schwellenwert einstellbar für optimiertes Modellverhalten
+- Dynamisch einstellbarer Schwellenwert zur Anpassung des Modellverhaltens
+- Visualisierte Ausgabe der Prognoseergebnisse
 
 ---
 
-## Technologies
+## Verwendete Technologien
 ***
 A list of technologies used within the project:
-* [Python](https://www.python.org): Version 3.13.2 
+* [Python](https://www.python.org): Version 3.9.6 
 * [Pandas](https://pandas.pydata.org): Version 2.2.3
 * [NumPy](https://numpy.org): Version 2.2.6
 * [Matplotlib](https://matplotlib.org): Version 3.10.1 
 * [Seaborn](https://seaborn.pydata.org): Version 0.13.2
 * [Scikit-learn](https://scikit-learn.org): Version 1.6.1 (LinearRegression)
 * [Streamlit](https://streamlit.io): Version 1.44.1 (App-UI) 
-* [Joblib](https://joblib.readthedocs.io): Version 1.5.1 ()
+* [Joblib](https://joblib.readthedocs.io): Version 1.5.1 (Modellspeicherung)
+* [Ast](https://docs.python.org/3/library/ast.html): Version ??? (wurde es verwendet???)
+* [Requests](https://requests.readthedocs.io/en/latest/): Version 2.32.3 
+* [Torch](https://pytorch.org): Version 2.7.1
+* [Umap-learn](https://pypi.org/project/umap-learn/): Version 0.5.9.post2 (wurde es verwendet???)
+
+- **GitHub** (Versionskontrolle & Zusammenarbeit)
+- **SCRUM** (agile Projektstruktur)
+
+## Installation
+
+# Repository klonen
+git clone https://github.com/deinusername/book-market.git
+
+# In das Projektverzeichnis wechseln
+cd book-market
+
+# Abhängigkeiten installieren
+pip install -r requirements.txt
+
+# Streamlit-App starten
+streamlit run app.py
+
+---
+
+## Table of Contents
+1. [General Info](#general-info)
+2. [Features of the App](#features-of-the-app)
+3. [Technologies](#technologies)
+4. [Installation](#installation)
+
+## Technologies
+***
+A list of technologies used within the project:
+* [Python](https://www.python.org): Version 3.9.6 
+* [Pandas](https://pandas.pydata.org): Version 2.2.3
+* [NumPy](https://numpy.org): Version 2.2.6
+* [Matplotlib](https://matplotlib.org): Version 3.10.1 
+* [Seaborn](https://seaborn.pydata.org): Version 0.13.2
+* [Scikit-learn](https://scikit-learn.org): Version 1.6.1 (LinearRegression)
+* [Streamlit](https://streamlit.io): Version 1.44.1 (App-UI) 
+* [Joblib](https://joblib.readthedocs.io): Version 1.5.1 (Modellspeicherung)
 * [Ast](https://docs.python.org/3/library/ast.html): Version ??? (wurde es verwendet???)
 * [Requests](https://requests.readthedocs.io/en/latest/): Version 2.32.3 
 * [Torch](https://pytorch.org): Version 2.7.1
 * [Umap-learn ](https://pypi.org/project/umap-learn/): Version 0.5.9.post2 (wurde es verwendet???)
-
-## 🧠 Verwendete Technologien
-
-- **Python**, **Pandas**, **NumPy**
-- **Matplotlib**, **Seaborn**
-- **Scikit-learn** (Logistische Regression)
-- **Streamlit** (App-UI)
-- **Joblib** (Modellspeicherung)
-- **GitHub** (Versionskontrolle & Zusammenarbeit)
-- **SCRUM** (agile Projektstruktur)
-
----
-

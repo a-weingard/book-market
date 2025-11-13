@@ -16,7 +16,7 @@ df = load_data()
 
 # ------------------------ SIDEBAR: DATENSATZ INFO ------------------------------------------
 
-st.sidebar.header("Datensatz Info")
+st.sidebar.header("Datensatzinfo")
 st.sidebar.write("Anzahl Bücher (Zeilen):", df.shape[0])
 st.sidebar.write("Anzahl Features (Spalten):", df.shape[1])
 st.sidebar.write("Einzigartige Autoren:", df["author"].nunique())
